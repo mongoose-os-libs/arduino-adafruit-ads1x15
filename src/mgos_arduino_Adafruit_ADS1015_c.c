@@ -1,5 +1,5 @@
 #include <stdbool.h>
 
-bool mgos_arduino_Adafruit_ADS1X15_init(void) {
+bool mgos_arduino_adafruit_ads1x15_init(void) {
   return true;
 }
