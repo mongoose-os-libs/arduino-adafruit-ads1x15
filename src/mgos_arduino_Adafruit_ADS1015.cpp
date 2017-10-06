@@ -5,6 +5,10 @@ Adafruit_ADS1015 *mgos_ADS1015_create(int i2cAddress) {
   return new Adafruit_ADS1015(i2cAddress);
 }
 
+Adafruit_ADS1115 *mgos_ADS1115_create(int i2cAddress) {
+  return new Adafruit_ADS1115(i2cAddress);
+}
+
 void mgos_ADS1015_close(Adafruit_ADS1015 *ads) {
   if (ads != nullptr) {
     delete ads;
