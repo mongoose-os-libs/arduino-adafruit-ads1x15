@@ -11,6 +11,8 @@ extern "C"
 
 Adafruit_ADS1015 *mgos_ADS1015_create(int i2cAddress);
 
+Adafruit_ADS1115 *mgos_ADS1115_create(int i2cAddress);
+  
 void mgos_ADS1015_close(Adafruit_ADS1015 *ads);
 
 void mgos_ADS1015_begin(Adafruit_ADS1015 *ads);
