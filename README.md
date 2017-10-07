@@ -1,2 +1,2 @@
-# Arduino Adafruit_ADS1015 library for Mongoose OS
+# Arduino Adafruit ADS1015/ADS1115 library for Mongoose OS
 
