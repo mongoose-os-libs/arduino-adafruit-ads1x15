@@ -13,6 +13,6 @@ tags:
   - c
   - js
   - hw
-  - docs:drivers:Arduino ADS1015
+  - docs:arduino:Adafruit ADS1015
 
 skeleton_version: 2017-05-18
