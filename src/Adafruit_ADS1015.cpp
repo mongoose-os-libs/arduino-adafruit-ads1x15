@@ -146,7 +146,7 @@ adsGain_t Adafruit_ADS1015::getGain()
     @brief  Gets a single-ended ADC reading from the specified channel
 */
 /**************************************************************************/
-uint16_t Adafruit_ADS1015::readADC_SingleEnded(uint8_t channel) {
+int16_t Adafruit_ADS1015::readADC_SingleEnded(uint8_t channel) {
   if (channel > 3)
   {
     return 0;
